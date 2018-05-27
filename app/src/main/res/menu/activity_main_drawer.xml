@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/news_nav" />
+        <item
+            android:id="@+id/nav_bday"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/bday_nav" />
+        <item
+            android:id="@+id/nav_option"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/option_nav" />
+    </group>
+
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="@string/exit_nav" />
+    </group>
+
+</menu>
